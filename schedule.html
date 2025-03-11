@@ -1,0 +1,43 @@
+<head>
+<script src="main.js"></script>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body id="Sched-html">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="https://i.pinimg.com/736x/f2/e1/7a/f2e17aee66cd1f6794994157178946e9.jpg" alt="Logo" height="75"></a>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="schedule.html">Train Schedule</a></li>
+                <li class="nav-item"><a class="nav-link" href="help.html">Help</a></li>
+                <li class="nav-item"><a class="nav-link" href="tips.html">Passenger Safety</a></li>
+            </ul>
+            <div class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="search..." id="SearchBar">
+                <button class="btn btn-warning" onclick="SearchUp('SearchBar')" id="SearchBtn">Search</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="fare-guide">Train Schedule</div>
+    <p class="description" id="sched-desc">The LRT train schedule generally remains consistent, with minimal deviations, unless unforeseen technical issues arise, leading to potential delays or adjustments.</p>
+    <br>
+    <div class="container">
+        <table class="table table-bordered text-center table-hover table-warning" >
+            <tr>
+                <th>Day</th><th>Operating Hours (North Ave.)</th><th>Operating Hours (Baclaran)</th>
+            </tr>
+            <tr ><td>Monday</td><td>4:30 AM - 10 PM</td><td>4:30 AM - 10 PM</td></tr>
+            <tr><td>Tuesday</td><td>4:30 AM - 10 PM</td><td>4:30 AM - 10 pM</td></tr>
+            <tr><td>Wednesday</td><td>4:30 AM - 10 PM</td><td>4:30 AM - 10 pM</td></tr>
+            <tr><td>Thursday</td><td>4:30 AM - 10 PM</td><td>4:30 AM - 10 PM</td></tr>
+            <tr><td>Friday</td><td>4:30 AM - 10 PM</td><td>4:30 AM - 10 PM</td></tr>
+            <tr><td>Saturday</td><td>4:30 AM - 10 PM</td><td>4:30 AM - 10 PM</td></tr>
+            <tr><td>Sunday</td><td>4:30 AM - 10 PM</td><td>4:30 AM - 10 PM</td></tr>
+        </table>
+    </div>
+</body>
