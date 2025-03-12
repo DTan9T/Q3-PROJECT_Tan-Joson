@@ -3,14 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LRT Fare </title>
+    <title>LRT Fare Guide</title>
     <script src="main.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body onload="ChangeCost()" >
-
-    <!-- NAV BAR: JOSON -->
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="https://i.pinimg.com/736x/f2/e1/7a/f2e17aee66cd1f6794994157178946e9.jpg" alt="Logo" height="75"></a>
@@ -27,7 +25,7 @@
         </div>
     </nav>
     
-  
+    
     
     <div class="container mt-4">
         <div class="row">
@@ -39,26 +37,27 @@
               
                     <select id="start" onchange="ChangeCost()" class="btn btn-info">
                         <option value="Default">Select a Station</option>
-                        <option value="1">Roosevelt</option>
-                        <option value="2">Balintawak</option>
-                        <option value="3">Monumento</option>
-                        <option value="4">5th Avenue</option>
-                        <option value="5">R. Papa</option>
-                        <option value="6">Abad Santos</option>
-                        <option value="7">Blumentritt</option>
-                        <option value="8">Tayuman</option>
-                        <option value="9">Bambang</option>
-                        <option value="10">Doroteo Jose</option>
-                        <option value="11">Carriedo</option>
-                        <option value="12">Central Terminal</option>
-                        <option value="13">United Nations</option>
-                        <option value="14">Pedro Gil</option>
-                        <option value="15">Quirino</option>
-                        <option value="16">Vito Cruz</option>
-                        <option value="17">Gil Puyat</option>
-                        <option value="18">Libertad</option>
-                        <option value="19">EDSA</option>
-                        <option value="20">Baclaran</option>
+<option value="1">Roosevelt</option>
+<option value="2">Balintawak</option>
+<option value="3">Monumento</option>
+<option value="4">5th Avenue</option>
+<option value="5">R. Papa</option>
+<option value="6">Abad Santos</option>
+<option value="7">Blumentritt</option>
+<option value="8">Tayuman</option>
+<option value="9">Bambang</option>
+<option value="10">Doroteo Jose</option>
+<option value="11">Carriedo</option>
+<option value="12">Central Terminal</option>
+<option value="13">United Nations</option>
+<option value="14">Pedro Gil</option>
+<option value="15">Quirino</option>
+<option value="16">Vito Cruz</option>
+<option value="17">Gil Puyat</option>
+<option value="18">Libertad</option>
+<option value="19">EDSA</option>
+<option value="20">Baclaran</option>
+
                     </select>
                 
                 <br><br>
@@ -67,46 +66,26 @@
                 
                     <select id="end" onchange="ChangeCost()" class="btn btn-info">
                         <option value="Default">Select a Station</option>
-
-                        <option value="1">Roosevelt</option>
-
-                        <option value="2">Balintawak</option>
-
-                        <option value="3">Monumento</option>
-
-                        <option value="4">5th Avenue</option>
-
-                        <option value="5">R. Papa</option>
-
-                        <option value="6">Abad Santos</option>
-
-                        <option value="7">Blumentritt</option>
-
-                        <option value="8">Tayuman</option>
-
-                        <option value="9">Bambang</option>
-                        
-                        <option value="10">Doroteo Jose</option>
-
-                        <option value="11">Carriedo</option>
-
-                        <option value="12">Central Terminal</option>
-
-                        <option value="13">United Nations</option>
-
-                        <option value="14">Pedro Gil</option>
-
-                        <option value="15">Quirino</option>
-
-                        <option value="16">Vito Cruz</option>
-
-                        <option value="17">Gil Puyat</option>
-
-                        <option value="18">Libertad</option>
-
-                        <option value="19">EDSA</option>
-
-                        <option value="20">Baclaran</option>
+<option value="1">Roosevelt</option>
+<option value="2">Balintawak</option>
+<option value="3">Monumento</option>
+<option value="4">5th Avenue</option>
+<option value="5">R. Papa</option>
+<option value="6">Abad Santos</option>
+<option value="7">Blumentritt</option>
+<option value="8">Tayuman</option>
+<option value="9">Bambang</option>
+<option value="10">Doroteo Jose</option>
+<option value="11">Carriedo</option>
+<option value="12">Central Terminal</option>
+<option value="13">United Nations</option>
+<option value="14">Pedro Gil</option>
+<option value="15">Quirino</option>
+<option value="16">Vito Cruz</option>
+<option value="17">Gil Puyat</option>
+<option value="18">Libertad</option>
+<option value="19">EDSA</option>
+<option value="20">Baclaran</option>
 
                     </select>
                 
@@ -133,8 +112,6 @@
                 <img src="https://i.pinimg.com/736x/ee/6b/a5/ee6ba5ce87ee9ccaf3fe236704a5e3e1.jpg" alt="Single Journey Ticket" class="img-fluid">
             </div>
 
-
-        <!-- TRANSIT MAP: JOSON -->
             <div class="col-md-4">
                 <img style="width:500px;" id="LRT" src="https://upload.wikimedia.org/wikipedia/commons/8/83/Manila_LRT-MRT_map.png" alt="Train Map" class="img-fluid">
             </div>

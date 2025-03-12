@@ -1,1 +1,179 @@
+body {
+        background-color: #DEB887;
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .navbar {
+        background-color: #E9967A;
+        padding: 12px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .navbar .nav-link {
+        color: white !important;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .fare-guide {
+        font-size: 28px;
+        font-weight: bold;
+        background-color: #BDB76B;
+        color: white;
+        text-align: center;
+        padding: 12px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .ticket-price {
+        background-color: #E9967A;
+        color: black;
+        font-size: 50px;
+        font-weight: bold;
+        padding: 25px;
+        text-align: center;
+        border-radius: 10px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .form-label {
+        font-weight: bold;
+        background-color: black;
+        color: white;
+        padding: 6px;
+        display: inline-block;
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .btn-info {
+        font-size: 18px;
+        padding: 8px 35px;
+        font-family: 'Roboto', sans-serif;
+        min-width: 180px;
+    }
+    
+    .btn-warning {
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .fare-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+        margin-top: 12px;
+    }
+    
+    .btn-outline-success, .btn-outline-primary {
+        font-size: 14px;
+        padding: 4px 12px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .destination-box {
+        display: inline-block;
+        min-width: 200px;
+        padding: 8px;
+    }
+    
+    #LRT{
+        border-radius: 15px;
+        border-style: solid;
+    }
 
+    .navbar-nav{
+        margin-right: auto;
+    }
+
+    #ticket-label{
+        font-size: 34px;
+    }
+
+    
+
+    #ticket-types-label{
+        font-weight: bold;
+    }
+    
+    .DF-text{
+        font-size: 35px;
+    }
+
+    footer { text-align: center; padding: 20px; background: #f8f9fa; margin-top: 20px; }
+
+    #txt, #email, #comment{
+        border-width: 5px;
+        border-radius: 7px;
+        background-color: lightpink;
+    }
+
+    
+    .description{
+        text-align: center;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    .Reminder{
+       
+        background-color: lightgray;
+        width: 50%;
+
+        margin: auto;
+
+        border-radius: 35px;
+        padding: 15px;
+
+        
+        
+        
+    }
+
+    .Top-Reminder{
+        margin-left: 5px;
+        font-style: italic;
+        font-weight: bold;
+        margin-bottom: 7px;
+    }
+
+    .Reminder-desc{
+        background-color: #CD5C5C;
+        padding: 4px;
+        border-radius: 7px;
+        border-style: solid;
+        font-style: italic;
+    }
+
+    .Reminder_No{
+        background-color: #8FBC8F;
+        border-radius:50% ;
+        border-style: solid;
+        padding: 5px;
+        font-style: normal;
+    }
+
+    .Copyright{
+        text-align: center;
+        background-color: black;
+        color: white;
+        border-radius: 45px;
+        border-style: solid;
+        border-color: black;
+        font-weight: bold;
+        top: 0;
+        
+
+
+    }
+
+    #sched-desc{
+        color: white;
+        background-color: black;
+    }
+
+    #Sched-html{
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c0/Two_LRT-1_4th_Gen_trains_at_EDSA_2025-02-05.jpg");
+        background-size: cover;
+    }
